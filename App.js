@@ -17,7 +17,7 @@ export default function App() {
 
     //Recordar eliminar estas lineas despues de probar el SplashScreen
     SplashScreen.preventAutoHideAsync();
-    setTimeout(SplashScreen.hideAsync,5000);
+    setTimeout(SplashScreen.hideAsync,15000);
     //
 
     if (permissionResult.granted === false){
